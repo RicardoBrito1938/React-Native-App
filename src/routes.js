@@ -11,6 +11,8 @@ function Routes() {
     return (
         <NavigationContainer>
             <Stack.Navigator
+                initialRouteName="Main"
+                headerMode="screen"
                 screenOptions={{
                     headerTitleAlign: 'center',
                     headerBackTitle: false,
